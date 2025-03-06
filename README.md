@@ -8,9 +8,9 @@ Para llevar a cabo el estudio se utilizarán técnicas básicas para el análisi
 
 🏛️Estructura del proyecto: 
 Para llevar a cabo el análisis de los datos se ha utilizado la siguiente estructura de carpetas.
-l—Data #Datos crudos 
-l—Análisis #Documento con el EDA realizado y los diferentes gráficos obtenidos así como el Dashboard
-l—Documentación #Readme con la descripción del proyecto y análisis paso a paso. 
+l—workout_data #Datos crudos 
+l—JDP-Workout-Dashboard #Documento con el EDA realizado y los diferentes gráficos obtenidos así como el Dashboard.
+l—ReadMe.md #Readme con la descripción del proyecto y explicación paso a paso del proyecto. 
 
 🧰Instalaciones y requisitos: 
 Para este proyecto se ha utilizado como herramienta tanto para el análisis como para la creación del Dashboard, Microsoft Excel. Por lo que será la única herramienta necesaria para poder tener acceso al estudio. 
@@ -42,7 +42,6 @@ Gender (Columna C):
 Tipo de variable → Variable cualitativa nominal
 Rango de datos: Hombre, Mujer, Otro. 
 Tipo de dato: Categórico
-
 Height (cm) (Columna D)
 Esta variable representa la altura de la persona que responde a la encuesta.
 Tipo de variable → Variable cuantitativa continua 
@@ -120,16 +119,6 @@ Rango de datos: Happy, Neutral, Stressed, Tired
 Tipo de dato: Categórico 
 
 Paso 4: Se analiza la columna “User ID” utilizando la función eliminar duplicados para comprobar que no haya ningún registro duplicado.
-
-
-
-
-
-
-
-
-
-
 Tras comprobar que no hay valores duplicados ni outliers en nuestros registros, podemos proseguir con el análisis.
 Ahora, seleccionaremos las variables que serán de utilidad en nuestro estudio que son las siguientes: 
 UserID

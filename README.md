@@ -22,13 +22,17 @@ Se hace una carga en una nueva hoja excel del set de datos workout_fitness_track
 _**Paso 2:**_Se convierten los datos a formato tabla para facilitar su análisis.
 
 _**Paso 3:**_ Se realiza un análisis de las categorías que representa cada una de las variables que contienen información para saber de qué hablan y que estén correctamente categorizadas en excel. 
-Se convierte a números sin decimales todas las columnas que contienen números. 
-Se comprueba que no haya registros en blanco en ninguna de las columnas con categorías de datos y se extraen las primeras conclusiones a simple vista:
-No hay registros en blanco en ninguna de las columnas de datos de los registros. 
+- Se convierte a números sin decimales todas las columnas que contienen números. 
+- Se convierte la variable Age (Columna B) en un rango en la columna C llamada Rango de edad. 
+- Se comprueba que no haya registros en blanco en ninguna de las columnas con categorías de datos y se extraen las primeras conclusiones a simple vista:
+No hay registros en blanco en ninguna de las columnas de datos de los registros.
+
 La columna V02 Max (Columna Q) tiene el mismo dato para todos los registros y como es poco probable que esto sea así en la realidad no se tendrá en cuenta para el análisis.
+
 La columna Body fat (%) (Columna R) tiene el mismo dato para todos los registros y como es poco probable que esto sea así en la realidad no se tendrá en cuenta para el análisis.
+
 La columna Water intake (Columna N) tiene el mismo dato para todos los registros y como es poco probable que esto sea así en la realidad no se tendrá en cuenta para el análisis.
-Una vez comprendido a nivel general todos los datos y hemos descartado los datos que van a ser inservibles para nosotros, vamos a analizar en mayor profundidad las columnas que contienen datos que impactan en este estudio:
+- Una vez comprendido a nivel general todos los datos y hemos descartado los datos que van a ser inservibles para nosotros, vamos a analizar en mayor profundidad las columnas que contienen datos que impactan en este estudio:
 
 **User ID (Columna A):** 
 Representa el ID unívoco de cada uno de los registros de las personas que respondieron a la encuesta.
